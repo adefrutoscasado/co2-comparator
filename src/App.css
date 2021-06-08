@@ -44,8 +44,8 @@
 }
 
 @media only screen and (max-width : 1200px) {
-  .form-division{
-    padding-top: 15px;
+  .form-container{
+    padding-top: 0px;
   }
 }
 
