@@ -90,7 +90,7 @@ const App = () => {
       </div>
       <div className="form-division">
         <div className="form-container">
-          <Collapse defaultActiveKey={["1"]}>
+          <Collapse defaultActiveKey={[]}>
             <Panel
               header={<PanelHeader title="Transport" />}
               key="1"
