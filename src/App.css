@@ -43,6 +43,12 @@
   padding-bottom: 30px;
 }
 
+@media only screen and (max-width : 1200px) {
+  .form-division{
+    padding-top: 15px;
+  }
+}
+
 .flex-direction-row {
   display: flex;
   flex-direction: row;
