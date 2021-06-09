@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/co2-comparator/static/css/main.3ec8237e.chunk.css",
-    "main.js": "/co2-comparator/static/js/main.63d40125.chunk.js",
-    "main.js.map": "/co2-comparator/static/js/main.63d40125.chunk.js.map",
+    "main.js": "/co2-comparator/static/js/main.99cc8930.chunk.js",
+    "main.js.map": "/co2-comparator/static/js/main.99cc8930.chunk.js.map",
     "runtime-main.js": "/co2-comparator/static/js/runtime-main.796505f7.js",
     "runtime-main.js.map": "/co2-comparator/static/js/runtime-main.796505f7.js.map",
     "static/css/2.c02757eb.chunk.css": "/co2-comparator/static/css/2.c02757eb.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.c02757eb.chunk.css",
     "static/js/2.b598be1e.chunk.js",
     "static/css/main.3ec8237e.chunk.css",
-    "static/js/main.63d40125.chunk.js"
+    "static/js/main.99cc8930.chunk.js"
   ]
 }
