@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Slider, InputNumber, Checkbox } from 'antd'
-import { EyeTwoTone } from '@ant-design/icons';
+import { BarChartOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css'
 
 export const formatDecimal = (num = 0, decimals = 2, removeZeroDecimals = true) => {
@@ -97,7 +97,8 @@ const IntegerStep = ({
                                 className='check-equivalences-icon'
                                 title="Check equivalences"
                             >
-                                <EyeTwoTone 
+                                <BarChartOutlined
+                                    style={{ fontSize: '16px', color: '#1890ff' }}
                                     onClick={() => {
                                         onSetFixedAmount(amount)
                                     }}
