@@ -1,46 +1,110 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, repo_name, twitter_handle, email, project_title, project_description
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://adefrutoscasado.github.io/co2-comparator/">
+     <h3 align="center">🌍 CO2 Comparator</h3>
+    
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <p align="center">
+    A tiny app to compare the carbon footprint of our activities
+    <br />
+    <a href="https://adefrutoscasado.github.io/co2-comparator/">View Demo</a>
+    ·
+    <a href="https://github.com/adefrutoscasado/co2-comparator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/adefrutoscasado/co2-comparator/issues">Request Feature</a>
+  </p>
+</p>
+<br />
+<br />
+<br />
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Built With
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [Carbon Footprint Diagnostic](https://github.com/NMF-earth/carbon-footprint)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Learn More
+To get a local copy up and running follow these simple steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/adefrutoscasado/co2-comparator
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the application
+   ```sh
+   npm start
+   ```
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use the menu to compare different kind of activities in terms of Kg of CO2.
+
+Use the blue graph icon to check the equivalences of an element. For example, if we click this icon for 150g of beef, we can check the equivalences in terms of Kg of CO2: 14 km of plane, 15 km of car, 7.5 hours of ultra HD video or 0.3 units of shirt.
+
+![](https://user-images.githubusercontent.com/22233309/122446214-b13abb80-cfa2-11eb-8a2d-1ee0f8475192.png)
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
