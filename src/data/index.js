@@ -1,3 +1,4 @@
+import { food as _food } from 'carbon-footprint'
 export * from 'carbon-footprint'
 
 /* Unit: kgCO₂eq/s. 
@@ -9,4 +10,10 @@ export const streaming = {
     fullHDVideo: 0.00003583333,
     ultraHDVideo: 0.00015,
     audioMP3: 0.00000876166,
+}
+
+export const food = {
+    ..._food,
+    // beyondMeat data extracted from https://magnet.xataka.com/preguntas-no-tan-frecuentes/que-contamina-hamburguesa-carne-beyond-meat-este-grafico-ilustra
+    beyondMeat: 3.53
 }

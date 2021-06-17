@@ -102,6 +102,7 @@ export const getTypeProps = (key: string) => {
         case FoodType.milk:
         case FoodType.fruit:
         case FoodType.lentils:
+        case 'beyondMeat':
             return {
                 ...foodDefaultProps,
             }
